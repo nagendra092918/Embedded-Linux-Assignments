@@ -1,0 +1,5 @@
+local_var_test.c:7:20: error: ‘z’ undeclared (first use in this function)
+   printf("%d %d",x,z);
+                    ^
+local_var_test.c:7:20: note: each undeclared identifier is reported only once for each function it appears in
+
