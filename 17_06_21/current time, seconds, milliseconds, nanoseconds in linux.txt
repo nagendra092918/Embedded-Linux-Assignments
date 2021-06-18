@@ -1,0 +1,15 @@
+print the current time, seconds, milliseconds, nanoseconds in linux
+
+will return the number of seconds since the epoch.
+
+date +%s 
+
+returns the seconds and current nanoseconds.
+
+date +%s%N
+
+number of milliseconds since the epoch - current seconds plus the left three of the nanoseconds.
+
+date +%s%N | cut -b1-13
+
+
